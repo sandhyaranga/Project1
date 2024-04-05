@@ -1,0 +1,20 @@
+package collections2;
+
+import java.util.HashMap;
+
+public class Sample2 {
+	public static void main(String[] args) {
+		HashMap<Integer,String>var=new HashMap <> ();
+		var.put(232387, "Sandhya");
+		var.put(232389, "Preethi");
+		var.put(232390,"Saanvi");
+		var.put(232391, "Sadhana");
+		var.put(232392, "Lakshmi");
+		for(Integer x:var.keySet()) 
+		{
+			System.out.println(x);
+		}
+		
+	}
+
+}

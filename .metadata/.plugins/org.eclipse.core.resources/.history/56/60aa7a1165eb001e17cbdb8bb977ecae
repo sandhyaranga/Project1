@@ -1,0 +1,15 @@
+package sampleexceptionprograms;
+
+public class CheckAge {
+	public static void main(String[] args) throws AgeException{
+		System.out.println("Start");
+		int age=17;
+		if(age>=18) {
+			System.out.println("Eligible");
+		}
+		else {
+			throw new AgeException("Not Eligible");
+		}
+		System.out.println("End");
+	}
+}
