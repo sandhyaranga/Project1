@@ -9,6 +9,7 @@ public class Divisble {
 			}
 				else {
 				System.out.println ("Invalid Input");
+				System.out.println("Sandhya");
 		}
 	}
 }
